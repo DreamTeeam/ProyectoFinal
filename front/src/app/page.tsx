@@ -86,7 +86,7 @@ export default function Home() {
               href="/register"
               className="bg-primary text-white rounded-lg px-5 py-2 hover:bg-[#0d0d0d] cursor-pointer"
             >
-              Comenzar
+              Contacto
             </Link>
           </div>
         </nav>
@@ -101,7 +101,7 @@ export default function Home() {
           </p>
 
           {/* Imagen o componente */}
-          <div className="w-full max-w-4xl mx-auto">
+          <div className="w-full max-w-4xl mx-auto bottom-0">
             <div className="relative rounded-2xl flex items-center justify-center text-gray-500 ">
               <Image
                 src="/mainImage.jpg"
@@ -121,10 +121,10 @@ export default function Home() {
         id="features"
         className="w-full py-12 md:py-24 lg:py-32 bg-base-4"
       >
-        <div className="container px-4 md:px-6">
-          <div className="flex flex-col items-center justify-center space-y-4 text-center">
+        <div className="container px-4 md:px-6 mx-auto">
+          <div className="flex flex-col items-center justify-center space-y-4 text-center ">
             <div className="space-y-2">
-              <h2 className="text-base-300 text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
+              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
                 Un conjunto de funciones ideales para comenzar
               </h2>
               <p className="max-w-[900px] text-base-250 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
@@ -236,7 +236,7 @@ export default function Home() {
 
       {/* PRECIOS */}
       <section id="pricing" className="w-full py-12 md:py-24 lg:py-32">
-        <div className="container px-4 md:px-6">
+        <div className="container px-4 md:px-6 mx-auto">
           <div className="flex flex-col items-center justify-center space-y-4 text-center">
             <div className="space-y-2">
               <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
@@ -384,7 +384,7 @@ export default function Home() {
       {/* PREGUNTAS FRECUENTES */}
       <section className="bg-white py-12 px-4 sm:px-6 lg:px-8">
         <div className="max-w-4xl mx-auto">
-          <h2 className="text-3xl font-bold tracking-tight text-base-300 sm:text-4xl mb-8">
+          <h2 className="text-3xl text-base-3 font-bold tracking-tight  sm:text-4xl mb-8">
             Preguntas frecuentes
           </h2>
 
@@ -392,7 +392,7 @@ export default function Home() {
             {faqs.map((faq, index) => (
               <div
                 key={index}
-                className="border-b border-gray-200 dark:border-gray-700 pb-4"
+                className="border-b border-gray-200 pb-4"
               >
                 <button
                   type="button"
@@ -418,8 +418,8 @@ export default function Home() {
       </section>
 
       {/* BANNER CTA */}
-      <section className="w-full py-12 md:py-24 lg:py-32 bg-primary-20 items-center rounded-lg">
-        <div className="container px-4 md:px-6">
+      <section className="w-full py-12 md:py-24 lg:py-32 bg-primary-20 items-center rounded-lg max-width-[800px]">
+        <div className="container px-4 md:px-6 mx-auto">
           <div className="flex flex-col items-center justify-center space-y-4 text-center">
             <div className="space-y-2 items-center justify-center">
               <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
