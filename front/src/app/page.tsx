@@ -82,7 +82,10 @@ export default function Home() {
             >
               Ingresar
             </Link>
-            <Link href="/register" className="bg-primary text-white rounded-lg px-5 py-2 hover:bg-[#0d0d0d] cursor-pointer">
+            <Link
+              href="/register"
+              className="bg-primary text-white rounded-lg px-5 py-2 hover:bg-[#0d0d0d] cursor-pointer"
+            >
               Comenzar
             </Link>
           </div>
@@ -404,7 +407,9 @@ export default function Home() {
                   />
                 </button>
                 {openIndex === index && (
-                  <div className="mt-2 text-base-300 text-sm transition-all duration-200 ease-in-out">{faq.answer}</div>
+                  <div className="mt-2 text-base-300 text-sm transition-all duration-200 ease-in-out">
+                    {faq.answer}
+                  </div>
                 )}
               </div>
             ))}
@@ -413,7 +418,7 @@ export default function Home() {
       </section>
 
       {/* BANNER CTA */}
-      <section className="w-full py-12 md:py-24 lg:py-32 bg-primary-20 rounded-lg">
+      <section className="w-full py-12 md:py-24 lg:py-32 bg-primary-20 items-center rounded-lg">
         <div className="container px-4 md:px-6">
           <div className="flex flex-col items-center justify-center space-y-4 text-center">
             <div className="space-y-2 items-center justify-center">
@@ -441,7 +446,7 @@ export default function Home() {
       <footer className="bg-white rounded-lg shadow-sm m-4">
         <div className="w-full mx-auto max-w-screen-xl p-4 md:flex md:items-center md:justify-between">
           <span className="text-sm text-base-300 sm:text-center">
-            © 2023{" "}
+            © 2025{" "}
             <Link href="/" className="hover:underline">
               ThreadUp™
             </Link>
