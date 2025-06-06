@@ -13,7 +13,7 @@ const Error = () => {
           height="800"
           priority
         />
-        <Link href="/" className="text-main text-h1">
+        <Link href="/" className="text-primary text-h1">
           {" "}
           volver al inicio
         </Link>
